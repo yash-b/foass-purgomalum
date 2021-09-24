@@ -12,7 +12,6 @@ def getJson(url, path):
     conn.request("GET", path, headers = {'Accept': 'application/json'})
     server_response = conn.getresponse()
     testing = server_response.read()
-    print(testing)
     json_data = json.loads(testing)
     conn.close()
     return json_data
@@ -28,9 +27,9 @@ def GetText(path):
     pm_url = 'www.purgomalum.com'
     pm_quoted_url = urllib.parse.quote(json_data['message'].strip())
     json_data = getJson(pm_url, "/service/json?text=" + pm_quoted_url)
-    #variable message is the censored text. 
+    #variable message is the censored text.
     message = json_data["result"]
-    return [subtitle,message] 
+    return [subtitle,message]
 
 
 
