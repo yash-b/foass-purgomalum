@@ -4,7 +4,8 @@
 -Hanyue Zheng
 
 ### About 
-**CPSC 449-02 Project 1, Fall 2021**
+Class number: CPSC449-02
+Project Number: 1
 
 ### Requirements
 The project satisifes all the requirements for the project
