@@ -1,9 +1,10 @@
-### About 
-**CPSC 449-02 Project 1, Fall 2021**
 ### Team Members: 
 -Sijan Rijal
 -Yash Bhambhani
 -Hanyue Zheng
+
+### About 
+**CPSC 449-02 Project 1, Fall 2021**
 
 ### Requirements
 The project satisifes all the requirements for the project
