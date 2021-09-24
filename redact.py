@@ -1,4 +1,4 @@
-import argparse
+import sys
 import json
 import http.client
 import urllib.parse
@@ -12,12 +12,9 @@ def getJson(url, path):
     return json_data
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('path', help='Path to get data from FOASS')
-    args = parser.parse_args()
     # Work with foaas
     foaas_url = 'foaas.com'
-    json_data = getJson(foaas_url, args.path)
+    json_data = getJson(foaas_url, sys.argv[1])
     subtitle = json_data["subtitle"]
 
     #Profanity filter

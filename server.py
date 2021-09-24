@@ -17,8 +17,6 @@ def getJson(url, path):
     conn.close()
     return json_data
 
-
-
 PORT = 8080
 
 # a function to get the texts that will be used in html.
