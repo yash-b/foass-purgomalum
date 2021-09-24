@@ -1,5 +1,9 @@
 ### About 
-**CPSC 449 Project 1, Fall 2021**
+**CPSC 449-02 Project 1, Fall 2021**
+### Team Members: 
+-Sijan Rijal
+-Yash Bhambhani
+-Hanyue Zheng
 
 ### Requirements
 The project satisifes all the requirements for the project
@@ -12,8 +16,4 @@ The project satisifes all the requirements for the project
 * server.py is the server script, which creates a local server. It accepts the foaas endpoint as a parameter and executes the same operations as that of client.py, but instead of printing out the result in the terminal, it sends the result as an html to the local server, which serves it to its clients. In order to execute the script, run:
     `python3 server.py [foaas end point]`
 
-### Contributors
-- [Sijan Rijal](https://github.com/sijanr)
-- [Yash Bhambhani](https://yash-b.github.io)
-- [Hanyue Zheng](https://github.com/summerhanyuezheng)
 
